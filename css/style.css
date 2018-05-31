@@ -3,4 +3,73 @@ body {
   background-position: 50% 0;
 }
 
+header {
+  font-size: 1.2rem;
+}
+
+.page-header {
+  background-color: #d5e3f1;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.page-header__navbar-search {
+  border: 1px solid #2c71b6;
+  height: 50px;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+}
+
+.page-header__navbar-search button {
+  padding: 0;
+  margin: 5px;
+  border: 0;
+}
+
+.page-header__navbar-search .form-control {
+  width: 10rem;
+}
+
+.page-header__navbar-search i {
+  display: block;
+  padding: 10px;
+  background-color: #2c71b6;
+  color: #ffffff;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  border-radius: 0;
+}
+
+.navbar-collapse button {
+  padding: 0;
+  border: 0;
+}
+
+.page-header__btn-submit {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  color: #2c71b6;
+}
+
+.btn-outline-success:hover {
+  background-color: #ffffff;
+  color: #2c71b6;
+}
+
 /*# sourceMappingURL=style.css.map */
