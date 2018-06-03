@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 body {
   background-image: url(../img/patt.png);
   background-position: 50% 0;
@@ -8,13 +14,16 @@ header {
 }
 
 .page-header {
-  background-color: #d5e3f1;
   font-size: 1.2rem;
 }
 
 .navbar {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.page-header__navbar {
+  background-color: #d5e3f1;
 }
 
 .page-header__navbar-search {
@@ -67,9 +76,27 @@ header {
   color: #2c71b6;
 }
 
-.btn-outline-success:hover {
-  background-color: #ffffff;
-  color: #2c71b6;
+.fa-shopping-cart {
+  font-size: 1.5rem;
+}
+
+.page-header__carousel {
+  border-bottom: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.left-sidebar {
+  font-size: 1.2rem;
+  border-right: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+.left-sidebar__more {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

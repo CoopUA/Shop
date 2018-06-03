@@ -1,11 +1,15 @@
 .page-header {
-  background-color: $light-collor-1;
   font-size: 1.2rem;
 }
+
 
 .navbar {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.page-header__navbar {
+  background-color: $light-collor-1;
 }
 
 .page-header__navbar-search {
@@ -58,12 +62,13 @@
   background-color: $light-collor-2;
   color: $element-collor-1;
 }
-// .page-header__navbar-search button:hover {
-//   color: $element-collor-1;
-//   background-color: $light-collor-2;
-// }
 
-.btn-outline-success:hover {
-  background-color: $light-collor-2;
-  color: $element-collor-1;
+.fa-shopping-cart {
+  font-size: 1.5rem;
+}
+
+
+.page-header__carousel {
+  border-bottom: 1px solid $light-collor-2;
+  background-color: rgba(0, 0, 0, 0.3);
 }
