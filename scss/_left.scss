@@ -3,7 +3,8 @@
 	font-size: 1.2rem;
 	border-right: 1px solid $light-collor-2;
 	background-color: rgba(255, 255, 255, 0.3);
-	color: $light-collor-2;;
+	color: $light-collor-2;
+	padding: 15px 30px 30px;
 
 	&__more {
 		display: block;
@@ -11,5 +12,67 @@
 		margin-bottom: 30px;
 		font-size: 1.2rem;
 	}
+
+	&__btn-submit {
+		border: 1px solid $light-collor-2;
+		background-color: $element-collor-1;
+	}
 }
 
+fieldset {
+	margin-bottom: 1rem;
+
+	& legend {
+		font-weight: bold;
+	}
+}
+
+.form-check {
+	margin: 10px 0;
+}
+
+
+.main-content {
+	margin-top: 20px;
+
+	& .items-wrapper {
+	position: relative;
+	border: 1px solid $light-collor-2;
+	margin-bottom: 30px;
+
+		& .items-image {
+			display: flex;
+			overflow: hidden;
+			height: 180px;
+			background-color:  rgba(255, 255, 255, 0.75);
+			align-items: center;
+			justify-content: center;
+
+		}
+
+	.item-title {
+		font-size: 1.75rem;
+		color: $light-collor-2;
+		margin-top: 0.5rem;
+	}
+	
+	.item-description {
+		font-size: 1.25rem;
+		color: $light-collor-2;
+		margin-bottom: 0.5rem;
+		line-height: 1.5rem;
+	}
+
+	& .item-options {
+		font-size: 1.25rem;
+		color: $light-collor-2;
+		line-height: 1.75rem;
+	}
+
+	.item-price {
+
+	}
+
+
+	}
+}

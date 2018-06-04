@@ -1,0 +1,34 @@
+.breadcrumb {
+	background-color: transparent;
+	font-size: 14px;
+	padding: 1rem 0 0 0;
+	opacity: 0.5;
+
+	& .active {
+		color: $light-collor-2;
+	}
+
+	& a {
+		color: $light-collor-2;
+	}
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	content: "\003E";
+	color: $light-collor-2;
+}
+
+.selectpicker {
+    width: 100%;
+    padding: 3px 10px 5px;
+    color: $light-collor-2;
+    background-color: $element-collor-1;
+    border: 1px solid $light-collor-2;
+    font-size: 1.25rem;
+    margin-top: 6px;
+}
+
+.main-header__title {
+	font-size: 2.85rem;
+	color: $light-collor-2;
+}

@@ -4,6 +4,41 @@
   }
 }
 
+.breadcrumb {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 1rem 0 0 0;
+  opacity: 0.5;
+}
+
+.breadcrumb .active {
+  color: #ffffff;
+}
+
+.breadcrumb a {
+  color: #ffffff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\003E";
+  color: #ffffff;
+}
+
+.selectpicker {
+  width: 100%;
+  padding: 3px 10px 5px;
+  color: #ffffff;
+  background-color: #2c71b6;
+  border: 1px solid #ffffff;
+  font-size: 1.25rem;
+  margin-top: 6px;
+}
+
+.main-header__title {
+  font-size: 2.85rem;
+  color: #ffffff;
+}
+
 body {
   background-image: url(../img/patt.png);
   background-position: 50% 0;
@@ -90,6 +125,7 @@ header {
   border-right: 1px solid #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   color: #ffffff;
+  padding: 15px 30px 30px;
 }
 
 .left-sidebar__more {
@@ -97,6 +133,67 @@ header {
   color: #ffffff;
   margin-bottom: 30px;
   font-size: 1.2rem;
+}
+
+.left-sidebar__btn-submit {
+  border: 1px solid #ffffff;
+  background-color: #2c71b6;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+.form-check {
+  margin: 10px 0;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.main-content .items-wrapper {
+  position: relative;
+  border: 1px solid #ffffff;
+  margin-bottom: 30px;
+}
+
+.main-content .items-wrapper .items-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-content .items-wrapper .item-title {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.main-content .items-wrapper .item-description {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
+.main-content .items-wrapper .item-options {
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
