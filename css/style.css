@@ -194,6 +194,43 @@ fieldset legend {
   font-size: 1.25rem;
   color: #ffffff;
   line-height: 1.75rem;
+  margin-top: 15px;
+}
+
+.main-content .items-wrapper .item-options span {
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.main-content .items-wrapper .item-price {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-content .items-wrapper .item-buttons {
+  margin: 15px;
+}
+
+.main-content .items-wrapper .item-buttons .btn {
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 1.15rem;
+}
+
+.main-content .items-wrapper .item-buttons .btn .fas {
+  font-size: 1rem;
+}
+
+.main-content .items-wrapper .item-buttons .item-button__cart {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */

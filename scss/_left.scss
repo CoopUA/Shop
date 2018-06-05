@@ -50,29 +50,61 @@ fieldset {
 
 		}
 
-	.item-title {
-		font-size: 1.75rem;
-		color: $light-collor-2;
-		margin-top: 0.5rem;
-	}
-	
-	.item-description {
-		font-size: 1.25rem;
-		color: $light-collor-2;
-		margin-bottom: 0.5rem;
-		line-height: 1.5rem;
-	}
+		& .item-title {
+			font-size: 1.75rem;
+			color: $light-collor-2;
+			margin-top: 0.5rem;
+		}
+		
+		& .item-description {
+			font-size: 1.25rem;
+			color: $light-collor-2;
+			margin-bottom: 0.5rem;
+			line-height: 1.5rem;
+		}
 
-	& .item-options {
-		font-size: 1.25rem;
-		color: $light-collor-2;
-		line-height: 1.75rem;
-	}
+		& .item-options {
+			font-size: 1.25rem;
+			color: $light-collor-2;
+			line-height: 1.75rem;
+			margin-top: 15px;
 
-	.item-price {
+			& span {
+				display: block;
+				margin-top: 7px;
+				margin-bottom: 7px;
+			}
+		}
 
-	}
+		.item-price {
+			font-size: 2rem;
+			color: $light-collor-2;
+			text-align: center;
+			font-weight: bold;
+		}
+		
+		.item-buttons {
+			margin: 15px;
 
+			& .btn {
+				font-weight: bold;
+				border: 1px solid $light-collor-2;
+				text-transform: uppercase;
+				margin-bottom: 30px;
+				padding: 10px;
+				background-color: transparent;
+				font-size: 1.15rem;
 
+				& .fas {
+					font-size: 1rem;
+
+				}
+			}
+
+			& .item-button__cart {
+				margin-bottom: 30px;
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+		}
 	}
 }
