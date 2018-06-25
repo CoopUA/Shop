@@ -28,7 +28,19 @@
     margin-top: 6px;
 }
 
+
 .main-header__title {
 	font-size: 2.85rem;
 	color: $light-collor-2;
+}
+
+
+.content-pagination {
+
+	& .page-pagination__more {
+		
+		& a {
+			color: $light-collor-2;
+		}
+	}
 }

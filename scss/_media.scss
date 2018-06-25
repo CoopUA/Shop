@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+  .container {
+  max-width: 1140px;
+  }
+}
+
+@media (min-width: 1280px) {
+.navbar-nav {
+    width: calc(100% - 320px);
+    padding-right: 30px; 
+    padding-left: 107px;
+	}
+}
