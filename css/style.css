@@ -168,6 +168,10 @@ header {
   color: #2c71b6;
 }
 
+.page-header__cart-counter {
+  display: none;
+}
+
 .left-sidebar {
   font-size: 1.2rem;
   border-right: 1px solid #ffffff;

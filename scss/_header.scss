@@ -116,8 +116,6 @@
 
   & .dropdown-item {
     color: $light-collor-2;
-
-    
   }
 }
 
@@ -130,4 +128,8 @@
       background-color: $light-collor-2;
       color: $element-collor-1;
     }
+}
+
+.page-header__cart-counter {
+  display: none;
 }
